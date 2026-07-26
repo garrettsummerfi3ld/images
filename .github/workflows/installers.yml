@@ -1,4 +1,9 @@
 name: Installers
+
+permissions:
+  contents: read
+  packages: write
+
 on:
   workflow_dispatch:
   schedule:

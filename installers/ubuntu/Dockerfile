@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH ubuntu:noble
+FROM        --platform=$TARGETOS/$TARGETARCH ubuntu:resolute
 
 LABEL       author="Garrett Summerfield" maintainer="mail@garrettsummerfi3ld.io"
 
